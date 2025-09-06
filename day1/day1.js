@@ -212,9 +212,9 @@
 //* In JS, == and === check reference equality for objects.
 
 //! What will the following code print and why?
-console.log([] == 0);
-console.log([] == false);
-console.log([1] == true);
+// console.log([] == 0);
+// console.log([] == false);
+// console.log([1] == true);
 
 //* "" can coerced to a number -> 0
 //* Arrays become strings ([].toString() → "", [1] → "1", [1,2] → "1,2").
